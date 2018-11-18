@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+http://alyf.netlify.com/* http://alyf.de/:splat 301!

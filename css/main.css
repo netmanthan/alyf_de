@@ -1,0 +1,66 @@
+.sect {
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+#header, #contact {
+    background-color: #263238;
+    color: #e0e0e0;
+}
+
+#header .container {
+    height: 70vh;
+    margin-top: 30vh;
+}
+
+.nav a {
+    color: #a7c0cd;
+}
+
+#workshops {
+    background-color: #78909c;
+    color: #fafafa;
+    overflow: hidden;
+}
+
+#services {
+    color: #263238;
+    background-color: #fafafa;
+}
+
+#up-btn {
+    position: fixed;
+    bottom: 0.5rem;
+    right: 0.5rem;
+}
+
+img {
+    height: 8rem;
+    object-fit: cover;
+}
+
+.card {
+    color: #263238;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 992px) {
+    #workshops .card {
+        height: 25rem;
+    }
+
+    #contact .container {
+        height: 70vh;
+        margin-top: 30vh;
+    }
+}
+
+@media (min-width: 1200px) {
+    #workshops .card {
+        height: 20rem;
+    }
+
+    #services .card {
+        height: 33rem;
+    }
+}

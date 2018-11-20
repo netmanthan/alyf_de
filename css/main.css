@@ -39,6 +39,41 @@ img {
     object-fit: cover;
 }
 
+#zapier-app {
+    color: #263238;
+    background-color: #fafafa;
+}
+
+#zapier-app .container {
+    height: 100vh;
+}
+
+.zap-logo {
+    height: 4rem;
+}
+
+#quellcode {
+    color: #004c9e;
+    text-decoration: none;
+}
+
+#quellcode:hover {
+    color: #004c9e;
+    text-decoration: none;
+}
+
+#erpnext-logo a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #263238;
+}
+
+#erpnext-logo a:hover {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #263238;
+}
+
 .card {
     color: #263238;
     margin-bottom: 2rem;

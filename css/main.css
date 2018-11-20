@@ -42,10 +42,11 @@ img {
 #zapier-app {
     color: #263238;
     background-color: #fafafa;
+    overflow: hidden;
 }
 
 #zapier-app .container {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .zap-logo {

@@ -1,6 +1,13 @@
 .sect {
     min-height: 100vh;
     overflow: hidden;
+    color: #263238;
+    background-color: #fafafa;
+}
+
+.sect .container {
+    min-height: 100vh;
+    overflow: hidden;
 }
 
 #header, #contact {
@@ -8,24 +15,8 @@
     color: #e0e0e0;
 }
 
-#header .container {
-    height: 70vh;
-    margin-top: 30vh;
-}
-
 .nav a {
     color: #a7c0cd;
-}
-
-#workshops {
-    background-color: #78909c;
-    color: #fafafa;
-    overflow: hidden;
-}
-
-#services {
-    color: #263238;
-    background-color: #fafafa;
 }
 
 #up-btn {
@@ -34,24 +25,19 @@
     right: 0.5rem;
 }
 
-img {
-    height: 8rem;
-    object-fit: cover;
-}
-
-#zapier-app {
-    color: #263238;
-    background-color: #fafafa;
-    overflow: hidden;
-}
-
-#zapier-app .container {
-    min-height: 100vh;
-}
-
 .zap-logo {
     height: 4rem;
 }
+
+.undraw-cont {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+/* .undraw {
+    min-height: 70%;
+    max-width: 100%;
+} */
 
 #quellcode {
     color: #004c9e;
@@ -81,22 +67,19 @@ img {
 }
 
 @media (min-width: 992px) {
-    #workshops .card {
-        height: 25rem;
-    }
-
     #contact .container {
         height: 70vh;
         margin-top: 30vh;
     }
-}
 
-@media (min-width: 1200px) {
-    #workshops .card {
-        height: 20rem;
+    .spacer {
+        visibility: hidden;
     }
 
-    #services .card {
-        height: 33rem;
+    .undraw-cont {
+        margin-right: 5rem;
+        margin-left: 5rem;
     }
 }
+
+@media (min-width: 1200px) {}

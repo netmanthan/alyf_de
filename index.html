@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="keywords" content="ERP, ERPNext, Zapier, Consulting, Beratung, Schulung, Hosting, Open Source, Konfiguration, Alyf, Raffael, Meyer">
-    <meta name="description" content="Alyf ist Ihr deutscher Ansprechpartner in allen Fragen rund um ERPNext, von Hosting über Integration bis hin zu Schulungen.">
+    <meta name="description" content="Alyf bietet Hosting von ERPNext auf sicheren, deutschen Servern. Wir schulen und beraten Sie zu allen Themen rund um ERPNext. Unser Spezialgebiet ist dabei die API zur Anbindung von Drittsoftware. Unsere Zapier App für ERPNext können Sie kostenlos nutzen.">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -17,9 +17,10 @@
         crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="favicon.ico">
     <meta name="google-site-verification" content="AkgFd7t-r1crP1ML0-u4ZxBHiIBkunGTNeZbana5bBE" />
 
-    <title>Alyf - ERPNext Consulting</title>
+    <title>Alyf - Hosting, Beratung und Entwicklung zu ERPNext</title>
 </head>
 
 <body>
@@ -159,48 +160,75 @@
     </section>
     <section class="sect" id="contact">
         <div class="container">
-            <div class="py-5">
-                <h2 class="section-title">Kontakt</h2>
-                <p class="section-subtitle">Unterstützung bei Fragen rund um ERPNext.</p>
-                <a href="https://calendly.com/alyf/30min" target="_blank">
-                    <button type="button" class="btn btn-primary"><i class="fas fa-phone mr-1" id="fa-phone"></i>
-                        Rückruf vereinbaren</button>
-                </a>
-            </div>
-            <div class="section-content">
-                <h5 class="pb-3">Raffael Meyer</h5>
-                <p>+49 152 270 580 38</p>
-                <p>raffael@alyf.de</p>
-                <hr>
-                <p class="text-muted">Straße des 18. Oktober 33<br>04103 Leipzig</p>
-                <a href="datenschutz.html">
-                    <p class="text-muted">Datenschutzerklärung</p>
-                </a>
-
+            <div class="row my-5">
+                <div class="col-12">
+                    <!-- Kontaktdaten -->
+                    <div class="pb-5">
+                        <h2>Kontakt</h2>
+                        <p>Unterstützung bei Fragen rund um ERPNext.</p>
+                        <p><a href="https://calendly.com/alyf/30min" target="_blank">
+                                <button type="button" class="btn btn-primary"><i class="fas fa-phone mr-1" id="fa-phone"></i>
+                                    Rückruf vereinbaren</button>
+                            </a>
+                        </p>
+                        <p>
+                            <a class="typeform-share py-2" href="https://alyf2.typeform.com/to/WFzYAI" data-mode="popup"
+                                data-hide-headers=true data-hide-footer=true data-submit-close-delay="5" target="_blank">
+                                <button type="button" class="btn btn-primary"><i class="fas fa-envelope mr-2" id="fa-phone"></i>Anfrage
+                                    senden </button>
+                            </a>
+                        </p>
+                    </div>
+                    <div class="section-content">
+                        <h5 class="pb-3">Raffael Meyer</h5>
+                        <p>+49 152 270 580 38</p>
+                        <p>raffael@alyf.de</p>
+                        <hr>
+                        <p class="text-muted">Straße des 18. Oktober 33<br>04103 Leipzig</p>
+                        <a href="datenschutz.html">
+                            <p class="text-muted">Datenschutzerklärung</p>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-        <!-- Google Structured Data https://developers.google.com/search/docs/guides/intro-structured-data -->
-        <script type="application/ld+json">
-            {
-              "@context": "http://schema.org",
-              "@type": "Organization",
-              "url": "https://www.alyf.de",
-              "name": "Alyf - ERPNext Consulting",
-              "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+4915227058038",
-                "contactType": "Customer service"
-              }
-            }
-        </script>
     </section>
-
     <!-- back to top-->
     <a id="up-btn" href="#header">
         <button type="button" class="btn btn-dark">
             <i class="fas fa-chevron-up"></i>
         </button>
     </a>
+
+    <!-- Google Structured Data https://developers.google.com/search/docs/guides/intro-structured-data -->
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "url": "https://www.alyf.de",
+        "name": "Alyf - ERPNext Consulting",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+4915227058038",
+            "contactType": "Customer service"
+        }
+    }
+    </script>
+    <!-- Typeform -->
+    <script async>
+        (
+            function () {
+                var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm_share", b = "https://embed.typeform.com/";
+                if (!gi.call(d, id)) {
+                    js = ce.call(d, "script");
+                    js.id = id;
+                    js.src = b + "embed.js";
+                    q = gt.call(d, "script")[0];
+                    q.parentNode.insertBefore(js, q)
+                }
+            }
+        )()
+    </script>
 </body>
 
 </html>

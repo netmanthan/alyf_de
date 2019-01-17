@@ -16,6 +16,11 @@ body {
     margin-top: auto;
 }
 
+.navbar-nav > li{
+    padding-left:10px;
+    padding-right:10px;
+  }
+
 h2 {
     font-weight: 400;
 }

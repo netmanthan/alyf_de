@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:200,300,400,600');
+
 body {
     font-family: 'Muli', sans-serif;
     font-weight: 300;
+    background-color: #fbfcfc;
 }
 
 h2 {
@@ -8,25 +11,30 @@ h2 {
 }
 
 .sect {
-    min-height: 100vh;
     overflow: hidden;
-    color: #263238;
-    background-color: #fafafa;
 }
 
 .sect .container {
-    min-height: 100vh;
     overflow: hidden;
 }
 
-#header, #contact {
+#contact {
     background-color: #263238;
     color: #e0e0e0;
     font-weight: 400;
 }
 
+#alyf-logo {
+    margin-top: 40px;
+}
+
 .nav a {
-    color: #a7c0cd;
+    color: #298FC2;
+}
+
+.nav a:hover {
+    color: #004c9e;
+    text-decoration: none;
 }
 
 #up-btn {
@@ -45,7 +53,7 @@ h2 {
 }
 
 #quellcode {
-    color: #004c9e;
+    color: #298FC2;
     text-decoration: none;
 }
 
@@ -98,10 +106,66 @@ h2 {
 
 @media (min-width: 1200px) {}
 
+/*Corporate Design*/
+
+#contact {
+    background-color: #253746;
+}
+
 .btn-primary {
-    background-color: #78BE20;
+    background-color: #298FC2;
     color: white;
     border: none;
+    font-family: muli, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: muli, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #253746;
+}
+
+p.small {
+    font-family: muli, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+ul {
+    font-family: muli, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #253746;
+}
+
+h2 {
+    font-family: muli, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #253746;
+}
+
+h3 {
+    font-family: muli, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #fbfcfc;
+}
+
+.text-light {
+    color: #fbfcfc !important;
+}
+
+#quellcode {
+    color: #298FC2;
+    text-decoration: none;
+}
+
+.nav a {
+    color: #298FC2;
     font-family: muli, sans-serif;
     font-weight: 400;
     font-style: normal;

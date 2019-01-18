@@ -19,7 +19,7 @@ body {
 .navbar-nav > li{
     padding-left:10px;
     padding-right:10px;
-  }
+}
 
 h2 {
     font-weight: 400;
@@ -40,7 +40,8 @@ h2 {
 }
 
 #alyf-logo {
-    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .nav a {
@@ -184,4 +185,30 @@ h3 {
     font-family: muli, sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+/*Test*/
+html,
+body,
+header,
+.view {
+  height: 90%;
+}   
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 600px;
+  }
 }

@@ -27,10 +27,6 @@ body {
     padding-right:10px;
 }
 
-h2 {
-    font-weight: 400;
-}
-
 .sect {
     overflow: hidden;
 }
@@ -51,11 +47,11 @@ h2 {
 }
 
 .nav a {
-    color: #298FC2;
+    color: #0090DA;
 }
 
 .nav a:hover {
-    color: #004c9e;
+    color: #78BE20;
     text-decoration: none;
 }
 
@@ -75,12 +71,12 @@ h2 {
 }
 
 #quellcode {
-    color: #298FC2;
+    color: #0090DA;
     text-decoration: none;
 }
 
 #quellcode:hover {
-    color: #004c9e;
+    color: #78BE20;
     text-decoration: none;
 }
 
@@ -135,12 +131,17 @@ h2 {
 }
 
 .btn-primary {
-    background-color: #298FC2;
+    background-color: #0090DA;
     color: white;
     border: none;
     font-family: muli, sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+.btn-primary:hover {
+    background-color: #78BE20;
+    text-decoration: none;
 }
 
 p {
@@ -170,11 +171,10 @@ h2 {
     color: #253746;
 }
 
-h3 {
+h6 {
     font-family: muli, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    color: #fbfcfc;
+    font-weight: 300;
+    color: #253746;
 }
 
 .text-light {
@@ -182,12 +182,12 @@ h3 {
 }
 
 #quellcode {
-    color: #298FC2;
+    color: #0090DA;
     text-decoration: none;
 }
 
 .nav a {
-    color: #298FC2;
+    color: #0090DA;
     font-family: muli, sans-serif;
     font-weight: 400;
     font-style: normal;

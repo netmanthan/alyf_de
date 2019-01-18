@@ -6,6 +6,10 @@ body {
     background-color: #fbfcfc;
 }
 
+#background {
+    background-image: linear-gradient(#298FC2,#004c9e)
+}
+
 .navbar-toggler-icon {
     color: #263238 !important;
 }
@@ -192,7 +196,7 @@ html,
 body,
 header,
 .view {
-  height: 90%;
+  height: 100%;
 }   
 
 @media (max-width: 740px) {

@@ -6,6 +6,10 @@ body {
     background-color: #fbfcfc;
 }
 
+.navbar {
+    min-height: 15vh;
+}
+
 .navbar-toggler-icon {
     color: #263238 !important;
 }
@@ -23,10 +27,12 @@ body {
 
 .sect {
     overflow: hidden;
+    min-height: 100vh;
 }
 
-.sect .container {
+section .container {
     overflow: hidden;
+    min-height: 100vh;
 }
 
 #contact {
@@ -36,8 +42,7 @@ body {
 }
 
 #alyf-logo {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
 }
 
 .nav a {
@@ -105,6 +110,7 @@ body {
     padding-top: 5px;
 }
 
+/* bigger than medium */
 @media (min-width: 992px) {
     .spacer {
         visibility: hidden;
@@ -113,6 +119,10 @@ body {
     .undraw-cont {
         margin-right: 5rem;
         margin-left: 5rem;
+    }
+
+    .navbar {
+        height: 15vh;
     }
 }
 
@@ -187,15 +197,12 @@ h6 {
     font-style: normal;
 }
 
-/*Test*/
-html,
-body,
-header,
+
 .view {
-  height: 100%;
+  min-height: 85vh;
 }   
 
-@media (max-width: 740px) {
+/* @media (max-width: 740px) {
   html,
   body,
   header,
@@ -211,4 +218,4 @@ header,
   .view {
     height: 600px;
   }
-}
+} */

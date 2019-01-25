@@ -1,32 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:200,300,400,600');
+
 body {
     font-family: 'Muli', sans-serif;
     font-weight: 300;
+    background-color: #fbfcfc;
 }
 
-h2 {
-    font-weight: 400;
+.navbar {
+    min-height: 15vh;
+}
+
+.navbar-toggler-icon {
+    color: #263238 !important;
+}
+
+.navbar-nav {
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+}
+
+.navbar-nav > li{
+    padding-left:10px;
+    padding-right:10px;
 }
 
 .sect {
-    min-height: 100vh;
     overflow: hidden;
-    color: #263238;
-    background-color: #fafafa;
+    min-height: 100vh;
 }
 
-.sect .container {
-    min-height: 100vh;
+section .container {
     overflow: hidden;
+    min-height: 100vh;
 }
 
-#header, #contact {
+#contact {
     background-color: #263238;
     color: #e0e0e0;
     font-weight: 400;
 }
 
+#alyf-logo {
+    padding-top: 10px;
+}
+
 .nav a {
-    color: #a7c0cd;
+    color: #0090DA;
+}
+
+.nav a:hover {
+    color: #78BE20;
+    text-decoration: none;
 }
 
 #up-btn {
@@ -45,12 +70,12 @@ h2 {
 }
 
 #quellcode {
-    color: #004c9e;
+    color: #0090DA;
     text-decoration: none;
 }
 
 #quellcode:hover {
-    color: #004c9e;
+    color: #78BE20;
     text-decoration: none;
 }
 
@@ -85,6 +110,7 @@ h2 {
     padding-top: 5px;
 }
 
+/* bigger than medium */
 @media (min-width: 992px) {
     .spacer {
         visibility: hidden;
@@ -94,6 +120,113 @@ h2 {
         margin-right: 5rem;
         margin-left: 5rem;
     }
+
+    .navbar {
+        height: 15vh;
+    }
 }
 
 @media (min-width: 1200px) {}
+
+/*Corporate Design*/
+
+#contact {
+    background-color: #253746;
+}
+
+.btn-primary {
+    background-color: #0090DA;
+    color: white;
+    border: none;
+    font-family: muli, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.btn-primary:hover {
+    background-color: #78BE20;
+    text-decoration: none;
+}
+
+.btn-light {
+    color: #0090DA;
+    border: none;
+}
+
+.btn-light:hover {
+    background-color: #78BE20;
+    color: white;
+    border: none;
+}
+
+p {
+    font-family: muli, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #253746;
+}
+
+p.small {
+    font-family: muli, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+ul {
+    font-family: muli, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #253746;
+}
+
+h2 {
+    font-family: muli, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #253746;
+}
+
+h6 {
+    font-family: muli, sans-serif;
+    font-weight: 300;
+    color: #253746;
+}
+
+.text-light {
+    color: #fbfcfc !important;
+}
+
+#quellcode {
+    color: #0090DA;
+    text-decoration: none;
+}
+
+.nav a {
+    color: #0090DA;
+    font-family: muli, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.view {
+  min-height: 85vh;
+}   
+
+/* @media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 600px;
+  }
+} */

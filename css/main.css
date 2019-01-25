@@ -148,6 +148,17 @@ section .container {
     text-decoration: none;
 }
 
+.btn-light {
+    color: #0090DA;
+    border: none;
+}
+
+.btn-light:hover {
+    background-color: #78BE20;
+    color: white;
+    border: none;
+}
+
 p {
     font-family: muli, sans-serif;
     font-weight: 300;

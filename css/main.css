@@ -8,10 +8,6 @@ body {
     line-height: 1.5;
 }
 
-.navbar {
-    min-height: 15vh;
-}
-
 .navbar-toggler-icon {
     color: #263238 !important;
 }
@@ -19,7 +15,7 @@ body {
 .navbar-nav {
     flex-direction: column;
     align-items: center;
-    margin-top: auto;
+    margin-top: 6px;
 }
 
 .navbar-nav > li{
@@ -28,11 +24,6 @@ body {
 }
 
 .sect {
-    overflow: hidden;
-    min-height: 100vh;
-}
-
-section .container {
     overflow: hidden;
     min-height: 100vh;
 }
@@ -54,12 +45,6 @@ section .container {
 .nav a:hover {
     color: #78BE20;
     text-decoration: none;
-}
-
-#up-btn {
-    position: fixed;
-    bottom: 0.5rem;
-    right: 0.5rem;
 }
 
 .zap-logo {
@@ -111,16 +96,9 @@ section .container {
 @media (min-width: 992px) {
     .spacer {
         visibility: hidden;
-    }
-
-    .navbar {
-        height: 15vh;
+        padding-top: 1rem;
     }
 }
-
-@media (min-width: 1200px) {}
-
-/*Corporate Design*/
 
 #contact {
     background-color: #253746;
@@ -140,12 +118,12 @@ section .container {
     text-decoration: none;
 }
 
-.btn-light {
+.btn-default {
     color: #0090DA;
     border: none;
 }
 
-.btn-light:hover {
+.btn-default:hover {
     background-color: #78BE20;
     color: white;
     border: none;
@@ -202,26 +180,11 @@ h6 {
 
 
 .view {
-  min-height: 85vh;
+  width: 100vw;
+  overflow: visible;
+  left: 0;
+  position: absolute;
 }   
-
-/* @media (max-width: 740px) {
-  html,
-  body,
-  header,
-  .view {
-    height: 1000px;
-  }
-}
-
-@media (min-width: 800px) and (max-width: 850px) {
-  html,
-  body,
-  header,
-  .view {
-    height: 600px;
-  }
-} */
 
 .logostack {
     width: fit-content;
@@ -242,4 +205,14 @@ h6 {
 .plus {
     font-weight: 900;
     font-size: 20px;
+}
+
+.page-container {
+    display: unset;
+    max-width: unset;
+    margin: unset;
+}
+
+.page-content.without-sidebar {
+    padding-top: 0;
 }

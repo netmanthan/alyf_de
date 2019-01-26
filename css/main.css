@@ -4,6 +4,8 @@ body {
     font-family: 'Muli', sans-serif;
     font-weight: 300;
     background-color: #fbfcfc;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .navbar {
@@ -64,11 +66,6 @@ section .container {
     height: 4rem;
 }
 
-.undraw-cont {
-    min-height: 100%;
-    overflow: hidden;
-}
-
 #quellcode {
     color: #0090DA;
     text-decoration: none;
@@ -114,11 +111,6 @@ section .container {
 @media (min-width: 992px) {
     .spacer {
         visibility: hidden;
-    }
-
-    .undraw-cont {
-        margin-right: 5rem;
-        margin-left: 5rem;
     }
 
     .navbar {
@@ -230,3 +222,24 @@ h6 {
     height: 600px;
   }
 } */
+
+.logostack {
+    width: fit-content;
+}
+
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
+}
+
+.undraw {
+    width: 80%;
+}
+
+.plus {
+    font-weight: 900;
+    font-size: 20px;
+}

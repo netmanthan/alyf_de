@@ -91,11 +91,6 @@ section .container {
     color: #263238;
 }
 
-.card {
-    color: #263238;
-    margin-bottom: 2rem;
-}
-
 .typeform-widget {
     width: 100%; 
     height: 100%;
@@ -128,6 +123,19 @@ section .container {
 
 @media (min-width: 1200px) {}
 
+/* Cards same height responsive */
+@media (min-width: 992px) { 
+    .card {
+        min-height: 80vh;
+    }
+ }
+
+@media (min-width: 1200px) { 
+    .card {
+        min-height: 60vh;
+    }
+}
+
 /*Corporate Design*/
 
 #contact {
@@ -158,6 +166,20 @@ section .container {
     color: white;
     border: none;
 }
+
+.fa-3x {
+    padding: 10px;
+} 
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.view {
+  min-height: 85vh;
+}
+
+/* Typography */
 
 p {
     font-family: muli, sans-serif;
@@ -201,6 +223,29 @@ h6 {
     text-decoration: none;
 }
 
+.card {
+    color: #263238;
+    background-color: white;
+    padding-top: 30px;
+    height: auto; 
+    border: none;
+}
+
+.card-link {
+    color: #0090DA;
+}
+
+.card-link:hover {
+    color: #78BE20;
+}
+
+.card-text {
+    font-family: muli, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #253746;
+}
+
 .nav a {
     color: #0090DA;
     font-family: muli, sans-serif;
@@ -208,25 +253,19 @@ h6 {
     font-style: normal;
 }
 
-
-.view {
-  min-height: 85vh;
-}   
-
-/* @media (max-width: 740px) {
-  html,
-  body,
-  header,
-  .view {
-    height: 1000px;
-  }
+.display-4:not(.no-puck)::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 4px;
+    background: #0090DA;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-@media (min-width: 800px) and (max-width: 850px) {
-  html,
-  body,
-  header,
-  .view {
-    height: 600px;
-  }
-} */
+.card-img-quali {
+    height: 3rem; 
+    align-self: center;
+    margin: 10px;
+}

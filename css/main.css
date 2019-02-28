@@ -147,7 +147,14 @@ body {
     }
 }
 
-/*Corporate Design*/
+@media (max-width: 992px) {
+    /* prevent un-centering on small screens */
+    .row {
+        margin-left: 0;
+    }
+}
+
+/* Corporate Design */
 
 #contact {
     background-color: #253746;

@@ -230,6 +230,19 @@ h2 {
     color: #253746;
 }
 
+h3 {
+    font-family: muli, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #253746;
+}
+
+h5 {
+    font-family: muli, sans-serif;
+    font-weight: 400;
+    color: #253746;
+}
+
 h6 {
     font-family: muli, sans-serif;
     font-weight: 300;
@@ -291,3 +304,39 @@ h6 {
     align-self: center;
     margin: 10px;
 }
+
+/* Accordion */
+.accordion-section .panel-default > .panel-heading {
+    border: 0;
+    background: #f4f4f4;
+    padding: 0;
+}
+
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-style: normal;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 3rem;
+    float: right;
+    margin-top: -12px;
+}
+
+.panel-heading h5 {
+    color: #253746;
+}
+
+.panel-heading h5:hover {
+    color: #0090DA;
+}
+
+.panel-heading .fas {
+    color: #0090DA;
+}
+
+

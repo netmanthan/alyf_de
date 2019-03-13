@@ -15,24 +15,43 @@
 </head>
 
 <body>
-    <section class="sect" id="header">
-        <div class="container text-center">
-            <div class="nav-brand">
-                <h3>Alyf</h3>
-                <p>ERPNext Consulting</p>
+    <!-- Main navigation -->
+    <header class="sect" id="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/alyf.svg" id="alyf-logo" width="100" class="d-inline-block align-top"
+                        alt="ALYF-Logo" onclick="window.location.href='index.html'">
+                </a>
+                <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse"
+                    data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#erpnext">Warum ERPNext</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#services">Was wir Ihnen bieten</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#zapier-app">Zapier App</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://erp.alyf.de/blog" target="_blank">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <ul class="nav flex-column">
-                <li class="nav-item">
-                    <a href="#datenschutz" class="nav-link">Datenschutzerklärung</a>
-                </li>
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link">Startseite</a>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <div class="container" id="datenschutz">
-        <h1 class="py-5">Datenschutzerklärung</h1>
+        </nav>
+    </header>
+    <div class="container mb-5" id="datenschutz">
+        <h2 class="py-5 text-center display-4">Datenschutzerklärung</h2>
         <p>Eine Nutzung meiner Internetseiten ist grundsätzlich ohne jede Angabe personenbezogener Daten möglich.
             Sofern eine betroffene Person besondere Dienste über meine Internetseite in Anspruch nehmen möchte, könnte
             jedoch eine Verarbeitung personenbezogener Daten erforderlich werden. Ist die Verarbeitung
@@ -54,7 +73,7 @@
             telefonisch, an uns zu übermitteln.</p>
 
         <p></p>
-        <h4>1. Begriffsbestimmungen</h4>
+        <h3>1. Begriffsbestimmungen</h3>
         <p>Meine Datenschutzerklärung beruht auf den Begrifflichkeiten, die durch den Europäischen Richtlinien- und
             Verordnungsgeber beim Erlass der Datenschutz-Grundverordnung (DS-GVO) verwendet wurden. Unsere
             Datenschutzerklärung soll sowohl für die Öffentlichkeit als auch für unsere Kunden und Geschäftspartner
@@ -66,7 +85,7 @@
 
         <ul style="list-style: none">
             <li>
-                <h4>a)&nbsp;&nbsp;&nbsp; personenbezogene Daten</h4>
+                <h5>a)&nbsp;&nbsp;&nbsp; personenbezogene Daten</h5>
                 <p>Personenbezogene Daten sind alle Informationen, die sich auf eine identifizierte oder
                     identifizierbare natürliche Person (im Folgenden „betroffene Person“) beziehen. Als identifizierbar
                     wird eine natürliche Person angesehen, die direkt oder indirekt, insbesondere mittels Zuordnung zu
@@ -76,12 +95,12 @@
                     Person sind, identifiziert werden kann.</p>
             </li>
             <li>
-                <h4>b)&nbsp;&nbsp;&nbsp; betroffene Person</h4>
+                <h5>b)&nbsp;&nbsp;&nbsp; betroffene Person</h5>
                 <p>Betroffene Person ist jede identifizierte oder identifizierbare natürliche Person, deren
                     personenbezogene Daten von dem für die Verarbeitung Verantwortlichen verarbeitet werden.</p>
             </li>
             <li>
-                <h4>c)&nbsp;&nbsp;&nbsp; Verarbeitung</h4>
+                <h5>c)&nbsp;&nbsp;&nbsp; Verarbeitung</h5>
                 <p>Verarbeitung ist jeder mit oder ohne Hilfe automatisierter Verfahren ausgeführte Vorgang oder jede
                     solche Vorgangsreihe im Zusammenhang mit personenbezogenen Daten wie das Erheben, das Erfassen, die
                     Organisation, das Ordnen, die Speicherung, die Anpassung oder Veränderung, das Auslesen, das
@@ -90,12 +109,12 @@
                     Vernichtung.</p>
             </li>
             <li>
-                <h4>d)&nbsp;&nbsp;&nbsp; Einschränkung der Verarbeitung</h4>
+                <h5>d)&nbsp;&nbsp;&nbsp; Einschränkung der Verarbeitung</h5>
                 <p>Einschränkung der Verarbeitung ist die Markierung gespeicherter personenbezogener Daten mit dem
                     Ziel, ihre künftige Verarbeitung einzuschränken.</p>
             </li>
             <li>
-                <h4>e)&nbsp;&nbsp;&nbsp; Profiling</h4>
+                <h5>e)&nbsp;&nbsp;&nbsp; Profiling</h5>
                 <p>Profiling ist jede Art der automatisierten Verarbeitung personenbezogener Daten, die darin besteht,
                     dass diese personenbezogenen Daten verwendet werden, um bestimmte persönliche Aspekte, die sich auf
                     eine natürliche Person beziehen, zu bewerten, insbesondere, um Aspekte bezüglich Arbeitsleistung,
@@ -103,7 +122,7 @@
                     Aufenthaltsort oder Ortswechsel dieser natürlichen Person zu analysieren oder vorherzusagen.</p>
             </li>
             <li>
-                <h4>f)&nbsp;&nbsp;&nbsp;&nbsp; Pseudonymisierung</h4>
+                <h5>f)&nbsp;&nbsp;&nbsp;&nbsp; Pseudonymisierung</h5>
                 <p>Pseudonymisierung ist die Verarbeitung personenbezogener Daten in einer Weise, auf welche die
                     personenbezogenen Daten ohne Hinzuziehung zusätzlicher Informationen nicht mehr einer spezifischen
                     betroffenen Person zugeordnet werden können, sofern diese zusätzlichen Informationen gesondert
@@ -112,7 +131,7 @@
                     Person zugewiesen werden.</p>
             </li>
             <li>
-                <h4>g)&nbsp;&nbsp;&nbsp; Verantwortlicher oder für die Verarbeitung Verantwortlicher</h4>
+                <h5>g)&nbsp;&nbsp;&nbsp; Verantwortlicher oder für die Verarbeitung Verantwortlicher</h5>
                 <p>Verantwortlicher oder für die Verarbeitung Verantwortlicher ist die natürliche oder juristische
                     Person, Behörde, Einrichtung oder andere Stelle, die allein oder gemeinsam mit anderen über die
                     Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet. Sind die Zwecke und
@@ -121,12 +140,12 @@
                     Unionsrecht oder dem Recht der Mitgliedstaaten vorgesehen werden.</p>
             </li>
             <li>
-                <h4>h)&nbsp;&nbsp;&nbsp; Auftragsverarbeiter</h4>
+                <h5>h)&nbsp;&nbsp;&nbsp; Auftragsverarbeiter</h5>
                 <p>Auftragsverarbeiter ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere
                     Stelle, die personenbezogene Daten im Auftrag des Verantwortlichen verarbeitet.</p>
             </li>
             <li>
-                <h4>i)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Empfänger</h4>
+                <h5>i)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Empfänger</h5>
                 <p>Empfänger ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, der
                     personenbezogene Daten offengelegt werden, unabhängig davon, ob es sich bei ihr um einen Dritten
                     handelt oder nicht. Behörden, die im Rahmen eines bestimmten Untersuchungsauftrags nach dem
@@ -134,14 +153,14 @@
                     gelten jedoch nicht als Empfänger.</p>
             </li>
             <li>
-                <h4>j)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dritter</h4>
+                <h5>j)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dritter</h5>
                 <p>Dritter ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle außer
                     der betroffenen Person, dem Verantwortlichen, dem Auftragsverarbeiter und den Personen, die unter
                     der unmittelbaren Verantwortung des Verantwortlichen oder des Auftragsverarbeiters befugt sind, die
                     personenbezogenen Daten zu verarbeiten.</p>
             </li>
             <li>
-                <h4>k)&nbsp;&nbsp;&nbsp; Einwilligung</h4>
+                <h5>k)&nbsp;&nbsp;&nbsp; Einwilligung</h5>
                 <p>Einwilligung ist jede von der betroffenen Person freiwillig für den bestimmten Fall in informierter
                     Weise und unmissverständlich abgegebene Willensbekundung in Form einer Erklärung oder einer
                     sonstigen eindeutigen bestätigenden Handlung, mit der die betroffene Person zu verstehen gibt, dass
@@ -150,7 +169,7 @@
         </ul>
 
         <p></p>
-        <h4>2. Name und Anschrift des für die Verarbeitung Verantwortlichen</h4>
+        <h3>2. Name und Anschrift des für die Verarbeitung Verantwortlichen</h3>
         <p>Verantwortlicher im Sinne der Datenschutz-Grundverordnung, sonstiger in den Mitgliedstaaten der Europäischen
             Union geltenden Datenschutzgesetze und anderer Bestimmungen mit datenschutzrechtlichem Charakter ist:</p>
         <p></p>
@@ -166,7 +185,7 @@
             Website: alyf.de</p>
 
         <p></p>
-        <h4>3. Erfassung von allgemeinen Daten und Informationen</h4>
+        <h3>3. Erfassung von allgemeinen Daten und Informationen</h3>
         <p>Meine Internetseite erfasst mit jedem Aufruf der Internetseite durch eine betroffene Person oder ein
             automatisiertes System eine Reihe von allgemeinen Daten und Informationen. Diese allgemeinen Daten und
             Informationen werden in den Logfiles des Servers gespeichert. Erfasst werden können die (1) verwendeten
@@ -191,7 +210,7 @@
             getrennt von allen durch eine betroffene Person angegebenen personenbezogenen Daten gespeichert.</p>
 
         <p></p>
-        <h4>4. Routinemäßige Löschung und Sperrung von personenbezogenen Daten</h4>
+        <h3>4. Routinemäßige Löschung und Sperrung von personenbezogenen Daten</h3>
         <p>Der für die Verarbeitung Verantwortliche verarbeitet und speichert personenbezogene Daten der betroffenen
             Person nur für den Zeitraum, der zur Erreichung des Speicherungszwecks erforderlich ist oder sofern dies
             durch den Europäischen Richtlinien- und Verordnungsgeber oder einen anderen Gesetzgeber in Gesetzen oder
@@ -203,10 +222,10 @@
             routinemäßig und entsprechend den gesetzlichen Vorschriften gesperrt oder gelöscht.</p>
 
         <p></p>
-        <h4>5. Rechte der betroffenen Person</h4>
+        <h3>5. Rechte der betroffenen Person</h3>
         <ul style="list-style: none;">
             <li>
-                <h4>a)&nbsp;&nbsp;&nbsp; Recht auf Bestätigung</h4>
+                <h5>a)&nbsp;&nbsp;&nbsp; Recht auf Bestätigung</h5>
                 <p>Jede betroffene Person hat das vom Europäischen Richtlinien- und Verordnungsgeber eingeräumte Recht,
                     von dem für die Verarbeitung Verantwortlichen eine Bestätigung darüber zu verlangen, ob sie
                     betreffende personenbezogene Daten verarbeitet werden. Möchte eine betroffene Person dieses
@@ -214,7 +233,7 @@
                     die Verarbeitung Verantwortlichen wenden.</p>
             </li>
             <li>
-                <h4>b)&nbsp;&nbsp;&nbsp; Recht auf Auskunft</h4>
+                <h5>b)&nbsp;&nbsp;&nbsp; Recht auf Auskunft</h5>
                 <p>Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen
                     Richtlinien- und Verordnungsgeber gewährte Recht, jederzeit von dem für die Verarbeitung
                     Verantwortlichen unentgeltliche Auskunft über die zu seiner Person gespeicherten personenbezogenen
@@ -251,7 +270,7 @@
                     jederzeit an einen Mitarbeiter des für die Verarbeitung Verantwortlichen wenden.</p>
             </li>
             <li>
-                <h4>c)&nbsp;&nbsp;&nbsp; Recht auf Berichtigung</h4>
+                <h5>c)&nbsp;&nbsp;&nbsp; Recht auf Berichtigung</h5>
                 <p>Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen
                     Richtlinien- und Verordnungsgeber gewährte Recht, die unverzügliche Berichtigung sie betreffender
                     unrichtiger personenbezogener Daten zu verlangen. Ferner steht der betroffenen Person das Recht zu,
@@ -262,7 +281,7 @@
                     jederzeit an einen Mitarbeiter des für die Verarbeitung Verantwortlichen wenden.</p>
             </li>
             <li>
-                <h4>d)&nbsp;&nbsp;&nbsp; Recht auf Löschung (Recht auf Vergessen werden)</h4>
+                <h5>d)&nbsp;&nbsp;&nbsp; Recht auf Löschung (Recht auf Vergessen werden)</h5>
                 <p>Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen
                     Richtlinien- und Verordnungsgeber gewährte Recht, von dem Verantwortlichen zu verlangen, dass die
                     sie betreffenden personenbezogenen Daten unverzüglich gelöscht werden, sofern einer der folgenden
@@ -301,7 +320,7 @@
                     Einzelfall das Notwendige veranlassen.</p>
             </li>
             <li>
-                <h4>e)&nbsp;&nbsp;&nbsp; Recht auf Einschränkung der Verarbeitung</h4>
+                <h5>e)&nbsp;&nbsp;&nbsp; Recht auf Einschränkung der Verarbeitung</h5>
                 <p>Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen
                     Richtlinien- und Verordnungsgeber gewährte Recht, von dem Verantwortlichen die Einschränkung der
                     Verarbeitung zu verlangen, wenn eine der folgenden Voraussetzungen gegeben ist:</p>
@@ -327,7 +346,7 @@
                     werde die Einschränkung der Verarbeitung veranlassen.</p>
             </li>
             <li>
-                <h4>f)&nbsp;&nbsp;&nbsp;&nbsp; Recht auf Datenübertragbarkeit</h4>
+                <h5>f)&nbsp;&nbsp;&nbsp;&nbsp; Recht auf Datenübertragbarkeit</h5>
                 <p>Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen
                     Richtlinien- und Verordnungsgeber gewährte Recht, die sie betreffenden personenbezogenen Daten,
                     welche durch die betroffene Person einem Verantwortlichen bereitgestellt wurden, in einem
@@ -351,7 +370,7 @@
 
             </li>
             <li>
-                <h4>g)&nbsp;&nbsp;&nbsp; Recht auf Widerspruch</h4>
+                <h5>g)&nbsp;&nbsp;&nbsp; Recht auf Widerspruch</h5>
                 <p>Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen
                     Richtlinien- und Verordnungsgeber gewährte Recht, aus Gründen, die sich aus ihrer besonderen
                     Situation ergeben, jederzeit gegen die Verarbeitung sie betreffender personenbezogener Daten, die
@@ -382,7 +401,7 @@
                     automatisierter Verfahren auszuüben, bei denen technische Spezifikationen verwendet werden.</p>
             </li>
             <li>
-                <h4>h)&nbsp;&nbsp;&nbsp; Automatisierte Entscheidungen im Einzelfall einschließlich Profiling</h4>
+                <h5>h)&nbsp;&nbsp;&nbsp; Automatisierte Entscheidungen im Einzelfall einschließlich Profiling</h5>
                 <p>Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen
                     Richtlinien- und Verordnungsgeber gewährte Recht, nicht einer ausschließlich auf einer
                     automatisierten Verarbeitung — einschließlich Profiling — beruhenden Entscheidung unterworfen zu
@@ -406,7 +425,7 @@
 
             </li>
             <li>
-                <h4>i)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Recht auf Widerruf einer datenschutzrechtlichen Einwilligung</h4>
+                <h5>i)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Recht auf Widerruf einer datenschutzrechtlichen Einwilligung</h5>
                 <p>Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen
                     Richtlinien- und Verordnungsgeber gewährte Recht, eine Einwilligung zur Verarbeitung
                     personenbezogener Daten jederzeit zu widerrufen.</p>
@@ -418,7 +437,7 @@
         </ul>
 
         <p></p>
-        <h4>8. Rechtsgrundlage der Verarbeitung</h4>
+        <h3>8. Rechtsgrundlage der Verarbeitung</h3>
         <p>Art. 6 I lit. a DS-GVO dient unserem Unternehmen als Rechtsgrundlage für Verarbeitungsvorgänge, bei denen
             wir eine Einwilligung für einen bestimmten Verarbeitungszweck einholen. Ist die Verarbeitung
             personenbezogener Daten zur Erfüllung eines Vertrags, dessen Vertragspartei die betroffene Person ist,
@@ -446,24 +465,24 @@
         <p></p>
 
         <p></p>
-        <h4>9. Berechtigte Interessen an der Verarbeitung, die von dem Verantwortlichen oder einem Dritten verfolgt
-            werden</h4>
+        <h3>9. Berechtigte Interessen an der Verarbeitung, die von dem Verantwortlichen oder einem Dritten verfolgt
+            werden</h3>
         <p>Basiert die Verarbeitung personenbezogener Daten auf Artikel 6 I lit. f DS-GVO ist unser berechtigtes
             Interesse die Durchführung unserer Geschäftstätigkeit zugunsten des Wohlergehens all unserer Mitarbeiter
             und unserer Anteilseigner.</p>
         <p></p>
 
         <p></p>
-        <h4>10. Dauer, für die die personenbezogenen Daten gespeichert werden</h4>
+        <h3>10. Dauer, für die die personenbezogenen Daten gespeichert werden</h3>
         <p>Das Kriterium für die Dauer der Speicherung von personenbezogenen Daten ist die jeweilige gesetzliche
             Aufbewahrungsfrist. Nach Ablauf der Frist werden die entsprechenden Daten routinemäßig gelöscht, sofern sie
             nicht mehr zur Vertragserfüllung oder Vertragsanbahnung erforderlich sind.</p>
         <p></p>
 
         <p></p>
-        <h4>11. Gesetzliche oder vertragliche Vorschriften zur Bereitstellung der personenbezogenen Daten;
+        <h3>11. Gesetzliche oder vertragliche Vorschriften zur Bereitstellung der personenbezogenen Daten;
             Erforderlichkeit für den Vertragsabschluss; Verpflichtung der betroffenen Person, die personenbezogenen
-            Daten bereitzustellen; mögliche Folgen der Nichtbereitstellung</h4>
+            Daten bereitzustellen; mögliche Folgen der Nichtbereitstellung</h3>
         <p>Wir klären Sie darüber auf, dass die Bereitstellung personenbezogener Daten zum Teil gesetzlich
             vorgeschrieben ist (z.B. Steuervorschriften) oder sich auch aus vertraglichen Regelungen (z.B. Angaben zum
             Vertragspartner) ergeben kann.
@@ -481,7 +500,7 @@
         <p></p>
 
         <p></p>
-        <h4>12. Bestehen einer automatisierten Entscheidungsfindung</h4>
+        <h3>12. Bestehen einer automatisierten Entscheidungsfindung</h3>
         <p>Als verantwortungsbewusstes Unternehmen verzichten wir auf eine automatische Entscheidungsfindung oder ein
             Profiling.</p>
         <p></p>
@@ -494,22 +513,45 @@
 
     </div>
 
+    <!-- Contact -->
     <section class="sect" id="contact">
         <div class="container">
-            <div class="py-5">
-                <h2 class="section-title">Kontakt</h2>
-                <p class="section-subtitle">Unterstützung bei Fragen rund um ERPNext.</p>
-                <a href="https://calendly.com/alyf/30min" target="_blank">
-                    <button type="button" class="btn btn-primary"><i class="fas fa-phone mr-1" id="fa-phone"></i>
-                        Rückruf vereinbaren</button>
-                </a>
-            </div>
-            <div class="section-content">
-                <h5 class="pb-3">Raffael Meyer</h5>
-                <p>+49 152 270 580 38</p>
-                <p>raffael@alyf.de</p>
-                <hr>
-                <p class="text-muted">Straße des 18. Oktober 33<br>04103 Leipzig</p>
+            <div class="row my-5">
+                <div class="col-12">
+                    <!-- Kontaktdaten -->
+                    <div class="pb-5">
+                        <h2 class="text-light">Kontakt</h2>
+                        <p class="text-light">Unterstützung bei Fragen rund um ERPNext.</p>
+                        <p><a href="https://calendly.com/alyf/30min" target="_blank">
+                                <button type="button" class="btn btn-primary"><i class="fas fa-phone mr-1"
+                                        id="fa-phone"></i>
+                                    Rückruf vereinbaren</button>
+                            </a>
+                        </p>
+                        <p>
+                            <a class="typeform-share py-2" href="https://alyf2.typeform.com/to/WFzYAI" data-mode="popup"
+                                data-hide-headers=true data-hide-footer=true data-submit-close-delay="5"
+                                target="_blank">
+                                <button type="button" class="btn btn-primary"><i class="fas fa-envelope mr-2"
+                                        id="fa-phone"></i>Anfrage senden </button>
+                            </a>
+                        </p>
+                    </div>
+                    <div class="section-content">
+                        <h5 class="pb-3 text-light">Raffael Meyer</h5>
+                        <p class="text-light">+49 152 270 580 38</p>
+                        <p class="text-light">raffael@alyf.de</p>
+                        <hr>
+                        <p class="text-muted">Straße des 18. Oktober 33<br>04103 Leipzig</p>
+                        <a href="datenschutz.html">
+                            <p class="text-muted">Datenschutzerklärung</p>
+                        </a>
+                        <br>
+                        <p class="text-muted">Design by <a class="text-muted" target="_blank"
+                                href="https://www.linkedin.com/in/natalie-buehrmann/">Natalie
+                                Bührmann</a></p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

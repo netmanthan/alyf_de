@@ -12,6 +12,7 @@ body {
 
 .navbar {
     min-height: 15vh;
+    border-bottom: 0.5px solid lightgrey;
 }
 
 .navbar-toggler-icon {

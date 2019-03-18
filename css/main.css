@@ -159,6 +159,22 @@ body {
     }
 }
 
+/* Kleinere Überschriften auf schmalen mobilen Geräten */
+@media (max-width: 420px) {
+    .container {
+        overflow: scroll;
+    }
+    h2 {
+        font-size: larger !important;
+    }
+    h3 {
+        font-size: large !important;
+    }
+    h5 {
+        font-size: medium !important;
+    }
+}
+
 /* Corporate Design */
 
 #contact {

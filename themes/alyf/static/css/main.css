@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Muli:200,300,400,600');
-
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -25,9 +24,16 @@ body {
     margin-top: auto;
 }
 
-.navbar-nav > li{
-    padding-left:10px;
-    padding-right:10px;
+.navbar-nav>li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.banner {
+    background-image: url('/img/background4.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 #contact {
@@ -97,7 +103,7 @@ body {
 }
 
 .typeform-widget {
-    width: 100%; 
+    width: 100%;
     height: 100%;
     min-height: 100vh;
 }
@@ -106,7 +112,7 @@ body {
     font-family: Sans-Serif;
     font-size: 12px;
     color: #999;
-    opacity: 0.5; 
+    opacity: 0.5;
     padding-top: 5px;
 }
 
@@ -119,24 +125,21 @@ body {
 }
 
 /* bigger than medium */
+
 @media (min-width: 992px) {
     .spacer {
         height: 30;
     }
-
     .undraw-cont {
         margin-right: 5rem;
         margin-left: 5rem;
     }
-
     .navbar {
         height: 15vh;
     }
-
     .card {
         min-height: 80vh;
     }
-
     .display-4 {
         font-size: 3.5rem;
     }
@@ -146,7 +149,6 @@ body {
     .spacer {
         height: 50vh;
     }
-
     .card {
         min-height: 60vh;
     }
@@ -160,6 +162,7 @@ body {
 }
 
 /* Kleinere Überschriften auf schmalen mobilen Geräten */
+
 @media (max-width: 420px) {
     .container {
         overflow: scroll;
@@ -208,7 +211,7 @@ body {
 
 .fa-3x {
     padding: 10px;
-} 
+}
 
 .jumbotron {
     background-color: transparent;
@@ -216,7 +219,7 @@ body {
 }
 
 .view {
-  min-height: 85vh;
+    min-height: 85vh;
 }
 
 /* Typography */
@@ -280,7 +283,7 @@ h6 {
     color: #263238;
     background-color: white;
     padding-top: 30px;
-    height: auto; 
+    height: auto;
     border: none;
 }
 
@@ -318,13 +321,14 @@ h6 {
 }
 
 .card-img-quali {
-    height: 3rem; 
+    height: 3rem;
     align-self: center;
     margin: 10px;
 }
 
 /* Accordion */
-.accordion-section .panel-default > .panel-heading {
+
+.accordion-section .panel-default>.panel-heading {
     border: 0;
     background: #f4f4f4;
     padding: 0;
@@ -353,8 +357,16 @@ h6 {
     color: #0090DA;
 }
 
-.panel-heading .fas {
-    color: #0090DA;
+/* --- Colors --- */
+.blue {
+    color:#0090DA;
 }
 
+.green {
+    color:#78BE20;
+}
 
+.pink {
+    color:#c5299b;
+}
+/* --- End Colors --- */

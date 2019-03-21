@@ -1,0 +1,5 @@
+baseURL = "https://alyf.de/"
+languageCode = "de"
+title = "Steigern Sie die Effizienz Ihres Unternehmens"
+description = "Hosting, Entwicklung und Beratung zu ERPNext"
+theme = "alyf"

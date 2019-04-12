@@ -357,6 +357,25 @@ h6 {
     color: #0090DA;
 }
 
+.panel-heading .fas {
+    color: #0090DA;
+    cursor: pointer;
+}
+
+#faq li {
+    margin: 10px 0;
+    list-style: none;
+}
+
+/* Changes bullet points */
+#faq li::before {
+    content: "\2022";
+    color:#0090DA;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
 /* --- Colors --- */
 .blue {
     color:#0090DA;

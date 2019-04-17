@@ -38,12 +38,6 @@ body {
 
 #contact {
     overflow: hidden;
-    min-height: 100vh;
-}
-
-#contact .container {
-    overflow: hidden;
-    min-height: 100vh;
 }
 
 #contact {

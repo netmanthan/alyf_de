@@ -132,7 +132,7 @@ body {
         height: 15vh;
     }
     .card {
-        min-height: 80vh;
+        min-height: 25em;
     }
     .display-4 {
         font-size: 3.5rem;
@@ -142,9 +142,6 @@ body {
 @media (min-width: 1200px) {
     .spacer {
         height: 50vh;
-    }
-    .card {
-        min-height: 60vh;
     }
 }
 

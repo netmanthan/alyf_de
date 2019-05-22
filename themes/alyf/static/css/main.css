@@ -139,16 +139,16 @@ body {
     }
 }
 
-@media (min-width: 1200px) {
-    .spacer {
-        height: 50vh;
+/* smaller than medium */
+@media (max-width: 992px) {
+    .ref-col:nth-child(1n+3) {
+        padding-top: 1em;
     }
 }
 
-@media (max-width: 992px) {
-    /* prevent un-centering on small screens */
-    .row {
-        margin-left: 0;
+@media (min-width: 1200px) {
+    .spacer {
+        height: 50vh;
     }
 }
 
@@ -359,24 +359,47 @@ h6 {
 }
 
 /* Changes bullet points */
+
 #faq li::before {
     content: "\2022";
-    color:#0090DA;
+    color: #0090DA;
     display: inline-block;
     width: 1em;
     margin-left: -1em;
 }
 
 /* --- Colors --- */
+
 .blue {
-    color:#0090DA;
+    color: #0090DA;
 }
 
 .green {
-    color:#78BE20;
+    color: #78BE20;
 }
 
 .pink {
-    color:#c5299b;
+    color: #c5299b;
 }
+
 /* --- End Colors --- */
+
+.ref-col {
+    min-height: 40px;
+    text-align: center;
+}
+
+.ref-logo {
+    max-height: 40px;
+    max-width: 250px;
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    vertical-align: middle;
+}
+
+.ref-logo:hover {
+    -webkit-filter: grayscale(0);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(0);
+}

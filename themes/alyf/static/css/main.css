@@ -111,7 +111,7 @@ body {
 }
 
 .spacer {
-    height: 20vh;
+    height: 10vh;
 }
 
 .display-4 {
@@ -122,7 +122,7 @@ body {
 
 @media (min-width: 992px) {
     .spacer {
-        height: 30;
+        height: 15;
     }
     .undraw-cont {
         margin-right: 5rem;
@@ -148,7 +148,7 @@ body {
 
 @media (min-width: 1200px) {
     .spacer {
-        height: 50vh;
+        height: 25vh;
     }
 }
 

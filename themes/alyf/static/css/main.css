@@ -385,12 +385,12 @@ h6 {
 /* --- End Colors --- */
 
 .ref-col {
-    min-height: 40px;
+    min-height: 32px;
     text-align: center;
 }
 
 .ref-logo {
-    max-height: 40px;
+    max-height: 32px;
     max-width: 250px;
     -webkit-filter: grayscale(100%);
     /* Safari 6.0 - 9.0 */

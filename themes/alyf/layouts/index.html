@@ -1,304 +1,302 @@
-<!doctype html>
-<html lang="de">
-
-{{ partial "head.html" }}
-
-<body>
-
-    {{ partial "header.html" . }}
-
-    <section class="sect" id="references">
-        <div class="container">
-            <div class="row my-4">
-                <div class="col-lg-4 ref-col">
-                    <img class="img-fluid ref-logo" src="img/tueit.png" alt="tüit GmbH" />
-                </div>
-                <div class="col-lg-4 ref-col">
+{{ define "main" }}
+<section class="sect" id="references">
+    <div class="container">
+        <div class="row my-4">
+            <div class="col-lg-4 ref-col">
+                <img class="img-fluid ref-logo" src="img/tueit.png" alt="tüit GmbH" />
+            </div>
+            <div class="col-lg-4 ref-col">
+                <a tabindex="0" role="button" data-toggle="popover" data-trigger="hover focus click" data-placement="top" offset=10
+                    data-content='"Wir vertrauen gerne auf ALYFs Expertise rund um ERP-Einführungsprojekte und auch die Anbindung und Kompatibilität zu deutscher Standardsoftware wie zum Beispiel DATEV." – Martin Seibert'>
                     <img class="img-fluid ref-logo" src="img/seibert_media.png" alt="//SEIBERT/MEDIA GmbH" />
-                </div>
-                <div class="col-lg-4 ref-col">
-                    <img class="img-fluid ref-logo" src="img/caboma.png" alt="CABOMA INC." />
-                </div>
+                </a>
             </div>
-        </div>
-    </section>
-    <hr class="my-0">
-    <!-- About ERPNext -->
-    <section class="sect pb-1" id="erpnext">
-        <div class="container" id="content">
-            <div class="row">
-                <div class="jumbotron">
-                    <h2 class="display-4 text-center">Warum ERPNext?</h2>
-                    <p class="lead text-center text-muted">ERPNext ist eine vollwertige Business-Management-Lösung, die
-                        kleinen bis mittelständischen Unternehmen dabei hilft, alle Geschäftsvorgänge in einem System
-                        festzuhalten. Sie ist das Rückgrat eines Unternehmens und sorgt für mehr Stärke, Transparenz und
-                        Kontrolle.</p>
-                </div>
+            <div class="col-lg-4 ref-col">
+                <img class="img-fluid ref-logo" src="img/caboma.png" alt="CABOMA INC." />
             </div>
-            <div class="my-1 row">
-                <div class="col-lg-4">
-                    <div class="card">
-                        <i class="fas fa-briefcase fa-3x card-image-top align-self-center blue"></i>
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Buchhaltung</h5>
-                            <p class="card-text">Das Herzstück Ihres Unternehmens, alles fließt hier durch.
-                                Ob Sie einen Buchhalter in Ihrem Team haben, es selbst erledigen oder sich für
-                                Outsourcing entschieden haben, der Finanzbuchhaltungsprozess steht im Mittelpunkt
-                                eines ERP-Systems.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card">
-                        <i class="fas fa-chart-line fa-3x card-image-top align-self-center green"></i>
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Vertrieb</h5>
-                            <p class="card-text">Einen Deal abschließen und sicherstellen, dass er erfolgreich
-                                durchgeführt wird. Verkaufen ist die Kommunikation, die vor und während des Verkaufs
-                                mit dem Kunden stattfindet. ERPNext hilft Ihnen, die Kommunikation bis zum Verkauf
-                                zu verfolgen und organisiert alle Ihre Dokumente.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card">
-                        <i class="fas fa-address-card fa-3x card-image-top align-self-center pink"></i>
-                        <div class="card-body text-center">
-                            <h5 class="card-title">CRM</h5>
-                            <p class="card-text">Alles Wissenswerte über Ihre Kunden, bleiben Sie in Kontakt und
-                                halten Sie diese auf dem Laufenden. ERPNext hilft Ihnen, Geschäftsmöglichkeiten von
-                                Leads und Kunden zu verfolgen, ihnen Angebote zu unterbreiten und bestätigte
-                                Kundenaufträge zu erstellen.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="box row flex-row-reverse">
-                <div class="col-lg-4">
-                    <div class="card">
-                        <i class="fas fa-tasks fa-3x card-image-top align-self-center blue"></i>
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Projektmanagement</h5>
-                            <p class="card-text">
-                                Verwalten Sie Teams mit mehreren Aufgaben, während Sie Zeit und Kosten im Blick
-                                behalten. ERPNext hilft Ihnen, Projektmanagement, Kundensupport, Verkaufs- und
-                                Einkaufsmanagement effektiv zu verwalten.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card">
-                        <i class="fas fa-shopping-cart fa-3x card-image-top align-self-center green"></i>
-                        <div class="card-body text-center">
-                            <h5 class="card-title">E-Commerce</h5>
-                            <p class="card-text">Website-Einträge, Warenkorb, Abrechnung, Zahlungen und vieles mehr.
-                                Schnittstellen zu Shopify, Woocommerce und Amazon ist ERPNext perfekt für Ihr
-                                E-Commerce-Unternehmen. Oder nutzen Sie den eingebauten Online-Shop und empfangen
-                                Sie zahlungen per Paypal oder Stripe.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card">
-                        <i class="fas fa-desktop fa-3x card-image-top align-self-center pink"></i>
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Website & Content-Management</h5>
-                            <p class="card-text">Homepage, Blog und Formulare. Gewähren Sie Ihren Kunden Einblick in
-                                Ihre Projekte und Rechnungen, unterhalten Sie einen Blog und zeigen Sie sich von
-                                Ihrer besten (Start-)Seite. ERPNext enthält einen vollständigen Website-Baukasten.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <p class="text-center small text-muted mt-1">By ERPNext Open Source Software Foundation, CC-BY-SA 3.0</p>
-        </div>
-    </section>
-    <!-- About our services -->
-    <div class="container" id="services">
-        <div class="jumbotron">
-            <h2 class="display-4 text-center">Was wir Ihnen bieten</h2>
-            <p class="lead text-center text-muted">Von Hosting über die Integration von Drittanbietern bis hin zu
-                Schulungen und Beratung - wir passen ERPNext an Ihre Wünsche an.</p>
         </div>
     </div>
-    <section class="sect" id="hosting">
-        <div class="container">
-            <div class="row mb-5 flex-row-reverse">
-                <div class="col-md text-center undraw-cont">
-                    <img src="img/server.svg" class="img-fluid undraw">
-                    <div class="py-5"></div>
+</section>
+<hr class="my-0">
+<!-- About ERPNext -->
+<section class="sect pb-1" id="erpnext">
+    <div class="container" id="content">
+        <div class="row">
+            <div class="jumbotron">
+                <h2 class="display-4 text-center">Warum ERPNext?</h2>
+                <p class="lead text-center text-muted">ERPNext ist eine vollwertige Business-Management-Lösung, die
+                    kleinen bis mittelständischen Unternehmen dabei hilft, alle Geschäftsvorgänge in einem System
+                    festzuhalten. Sie ist das Rückgrat eines Unternehmens und sorgt für mehr Stärke, Transparenz und
+                    Kontrolle.</p>
+            </div>
+        </div>
+        <div class="my-1 row">
+            <div class="col-lg-4">
+                <div class="card">
+                    <i class="fas fa-briefcase fa-3x card-image-top align-self-center blue"></i>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Buchhaltung</h5>
+                        <p class="card-text">Das Herzstück Ihres Unternehmens, alles fließt hier durch.
+                            Ob Sie einen Buchhalter in Ihrem Team haben, es selbst erledigen oder sich für
+                            Outsourcing entschieden haben, der Finanzbuchhaltungsprozess steht im Mittelpunkt
+                            eines ERP-Systems.</p>
+                    </div>
                 </div>
-                <div class="col-lg">
-                    <h2>Wir betreiben ERPNext für Sie</h2>
-                    <p>
-                        Bei uns ist Ihr Unternehmen in guten Händen: Wir betreiben ERPNext in einem
-                        Rechenzentrum in Frankfurt am Main, das für seine Informationssicherheit nach
-                        ISO/IEC 27001 zertifiziert wurde.
-                    </p>
-                    <p>
-                        Sie greifen einfach über eine verschlüsselte Verbindung (ähnlich Online-Banking)
-                        darauf zu und haben jederzeit die volle Kontrolle über Ihre Daten.
-                    </p>
-                    <a href="#contact" class="btn btn-primary">Angebot anfragen</a>
-                    <div class="spacer"></div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <i class="fas fa-chart-line fa-3x card-image-top align-self-center green"></i>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Vertrieb</h5>
+                        <p class="card-text">Einen Deal abschließen und sicherstellen, dass er erfolgreich
+                            durchgeführt wird. Verkaufen ist die Kommunikation, die vor und während des Verkaufs
+                            mit dem Kunden stattfindet. ERPNext hilft Ihnen, die Kommunikation bis zum Verkauf
+                            zu verfolgen und organisiert alle Ihre Dokumente.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <i class="fas fa-address-card fa-3x card-image-top align-self-center pink"></i>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">CRM</h5>
+                        <p class="card-text">Alles Wissenswerte über Ihre Kunden, bleiben Sie in Kontakt und
+                            halten Sie diese auf dem Laufenden. ERPNext hilft Ihnen, Geschäftsmöglichkeiten von
+                            Leads und Kunden zu verfolgen, ihnen Angebote zu unterbreiten und bestätigte
+                            Kundenaufträge zu erstellen.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
-    <section class="sect" id="zapier-app">
-        <div class="container">
-            <div class="row my-5">
-                <div class="col-md">
-                    <div class="align-items-center d-flex flex-column">
-                        <a href="https://zapier.com" target="_blank">
-                            <img class="d-inline-block align-top zap-logo" src="img/zapier-logo.png">
+        <div class="box row flex-row-reverse">
+            <div class="col-lg-4">
+                <div class="card">
+                    <i class="fas fa-tasks fa-3x card-image-top align-self-center blue"></i>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Projektmanagement</h5>
+                        <p class="card-text">
+                            Verwalten Sie Teams mit mehreren Aufgaben, während Sie Zeit und Kosten im Blick
+                            behalten. ERPNext hilft Ihnen, Projektmanagement, Kundensupport, Verkaufs- und
+                            Einkaufsmanagement effektiv zu verwalten.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <i class="fas fa-shopping-cart fa-3x card-image-top align-self-center green"></i>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">E-Commerce</h5>
+                        <p class="card-text">Website-Einträge, Warenkorb, Abrechnung, Zahlungen und vieles mehr.
+                            Schnittstellen zu Shopify, Woocommerce und Amazon ist ERPNext perfekt für Ihr
+                            E-Commerce-Unternehmen. Oder nutzen Sie den eingebauten Online-Shop und empfangen
+                            Sie zahlungen per Paypal oder Stripe.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <i class="fas fa-desktop fa-3x card-image-top align-self-center pink"></i>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Website & Content-Management</h5>
+                        <p class="card-text">Homepage, Blog und Formulare. Gewähren Sie Ihren Kunden Einblick in
+                            Ihre Projekte und Rechnungen, unterhalten Sie einen Blog und zeigen Sie sich von
+                            Ihrer besten (Start-)Seite. ERPNext enthält einen vollständigen Website-Baukasten.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="text-center small text-muted mt-1">By ERPNext Open Source Software Foundation, CC-BY-SA 3.0</p>
+    </div>
+</section>
+<!-- About our services -->
+<div class="container" id="services">
+    <div class="jumbotron">
+        <h2 class="display-4 text-center">Was wir Ihnen bieten</h2>
+        <p class="lead text-center text-muted">Von Hosting über die Integration von Drittanbietern bis hin zu
+            Schulungen und Beratung - wir passen ERPNext an Ihre Wünsche an.</p>
+    </div>
+</div>
+<section class="sect" id="hosting">
+    <div class="container">
+        <div class="row mb-5 flex-row-reverse">
+            <div class="col-md text-center undraw-cont">
+                <img src="img/server.svg" class="img-fluid undraw">
+                <div class="py-5"></div>
+            </div>
+            <div class="col-lg">
+                <h2>Wir betreiben ERPNext für Sie</h2>
+                <p>
+                    Bei uns ist Ihr Unternehmen in guten Händen: Wir betreiben ERPNext in einem
+                    Rechenzentrum in Frankfurt am Main, das für seine Informationssicherheit nach
+                    ISO/IEC 27001 zertifiziert wurde.
+                </p>
+                <p>
+                    Sie greifen einfach über eine verschlüsselte Verbindung (ähnlich Online-Banking)
+                    darauf zu und haben jederzeit die volle Kontrolle über Ihre Daten.
+                </p>
+                <a href="#contact" class="btn btn-primary">Angebot anfragen</a>
+                <div class="spacer"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="sect" id="zapier-app">
+    <div class="container">
+        <div class="row my-5">
+            <div class="col-md">
+                <div class="align-items-center d-flex flex-column">
+                    <a href="https://zapier.com" target="_blank">
+                        <img class="d-inline-block align-top zap-logo" src="img/zapier-logo.png">
+                    </a>
+                    <i class="fas fa-plus py-3" id="fa-plus"></i>
+                    <div id="erpnext-logo">
+                        <a href="https://erpnext.org" target="_blank">
+                            <span class="d-flex align-items-center"><img class="mr-2 d-inline-block align-top zap-logo"
+                                    src="img/erpnext-logo.svg">ERPNext</span>
                         </a>
-                        <i class="fas fa-plus py-3" id="fa-plus"></i>
-                        <div id="erpnext-logo">
-                            <a href="https://erpnext.org" target="_blank">
-                                <span class="d-flex align-items-center"><img
-                                        class="mr-2 d-inline-block align-top zap-logo"
-                                        src="img/erpnext-logo.svg">ERPNext</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="py-5"></div>
-                </div>
-                <div class="col-md">
-                    <h2>Verbinden Sie ERPNext mit einem Universum voller Apps</h2>
-                    <p>
-                        Mit der Zapier App für ERPNext nutzen Sie die Möglichkeiten von tausenden Apps wie Typeform,
-                        Quickbooks, Slack oder Calendly – integriert in Ihrem ERP-System.
-                    </p>
-                    <a href="#contact" class="btn btn-primary mr-3">Angebot anfragen</a>
-                    <a href="https://github.com/alyf-de/erpnext-zapier" target="_blank" id="quellcode">Quellcode</a>
-                    <div class="spacer"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="sect" id="schulung">
-        <div class="container">
-            <div class="row my-5 flex-row-reverse">
-                <div class="col-md text-center undraw-cont">
-                    <img src="img/team.svg" class="img-fluid undraw">
-                    <div class="py-5"></div>
-                </div>
-                <div class="col-lg">
-                    <h2>Wir schulen Ihre Mitarbeiter</h2>
-                    <p>
-                        Ihre Mitarbeiter lernen, welches die wichtigen Funktionen für ihre
-                        Arbeit sind und wie sie die Oberfläche von ERPNext effizient bedienen.
-                    </p>
-                    <p>
-                        In einem Crash-Kurs für Entwickler lernen sie, wie externe Anwendungen
-                        per API an ERPNext angebunden werden.
-                    </p>
-                    <a href="#contact" class="btn btn-primary">Angebot anfragen</a>
-                    <div class="spacer"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="sect" id="config">
-        <div class="container">
-            <div class="row my-5">
-                <div class="col-md text-center undraw-cont">
-                    <img src="img/preferences.svg" class="img-fluid undraw">
-                    <div class="py-5"></div>
-                </div>
-                <div class="col-lg">
-                    <h2>Wir passen ERPNext an Ihre Bedürfnisse an</h2>
-                    <p>
-                        Von Systemeinstellungen bis zu Nutzer-Berechtigungen muss bei der Einführung eines ERP-Systems
-                        viel konfiguriert werden. Durch den Import von Daten aus Ihren Altsystemen und mit individuellen
-                        Workflows
-                        stellen wir sicher, dass Sie sich in ERPNext gleich wie zu Hause fühlen.
-                    </p>
-                    <a href="#contact" class="btn btn-primary">Angebot anfragen</a>
-                    <div class="py-5"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- About our qualifications -->
-    <section class="sect mt-5" id="qualifikationen">
-        <div class="container">
-            <div class="row">
-                <div class="jumbotron">
-                    <h2 class="display-4 text-center">Was uns auszeichnet</h2>
-                    <p class="lead text-center text-muted">Mit ERP-Interessierten aus Deutschland
-                        und der ganzen Welt entwickeln wir ERPNext weiter.</p>
-                </div>
-            </div>
-            <div class="row my-5">
-                <div class="col-lg-4">
-                    <div class="card text-center">
-                        <i class="fas fa-code-branch fa-3x card-image-top align-self-center"></i>
-                        <div class="card-body">
-                            <h5 class="card-title">Aktive Mitarbeit an ERPNext</h5>
-                            <p class="card-text">Als Dienstleistungsanbieter entwickeln wir ERPNext nach Ihren Wünschen
-                                weiter und passen es an die Erfordernisse Ihres Unternehmens an.</p>
-                            <a href="https://github.com/alyf-de" target="_blank" class="card-link">ALYF auf GitHub</a>
-                        </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="card text-center">
-                        <img src="img/erpnext-logo-black.svg" class="card-image-top card-img-quali" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Mitglied der ERPNext Foundation</h5>
-                            <p class="card-text">Wir sind ein offizieller Dienstanbieter und Mitglied der
-                                ERPNext-Stiftung. So sind
-                                wir nah an der Community und allen wichtigen Entscheidungen rund um die Entwicklung der
-                                Software.</p>
-                            <a href="https://erpnext.org/service-providers" target="_blank" class="card-link">ERPNext
-                                Foundation</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card text-center">
-                        <img src="img/erpnext-deutschland-logo.png" class="card-image-top card-img-quali" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Mitglied des ERPNext German Chapter</h5>
-                            <p class="card-text">Im Interessensverband deutschsprachiger Nutzer und Dienstleister
-                                tauschen wir Erkenntnisse aus und stellen Neuentwicklungen gemeinsam auf die Beine.</p>
-                            <a href="https://discuss.erpnext.com/c/community/german-community" target="_blank"
-                                class="card-link">Werden Sie Teil der Community</a>
-                        </div>
+                <div class="py-5"></div>
+            </div>
+            <div class="col-md">
+                <h2>Verbinden Sie ERPNext mit einem Universum voller Apps</h2>
+                <p>
+                    Mit der Zapier App für ERPNext nutzen Sie die Möglichkeiten von tausenden Apps wie Typeform,
+                    Quickbooks, Slack oder Calendly – integriert in Ihrem ERP-System.
+                </p>
+                <a href="#contact" class="btn btn-primary mr-3">Angebot anfragen</a>
+                <a href="https://github.com/alyf-de/erpnext-zapier" target="_blank" id="quellcode">Quellcode</a>
+                <div class="spacer"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="sect" id="schulung">
+    <div class="container">
+        <div class="row my-5 flex-row-reverse">
+            <div class="col-md text-center undraw-cont">
+                <img src="img/team.svg" class="img-fluid undraw">
+                <div class="py-5"></div>
+            </div>
+            <div class="col-lg">
+                <h2>Wir schulen Ihre Mitarbeiter</h2>
+                <p>
+                    Ihre Mitarbeiter lernen, welches die wichtigen Funktionen für ihre
+                    Arbeit sind und wie sie die Oberfläche von ERPNext effizient bedienen.
+                </p>
+                <p>
+                    In einem Crash-Kurs für Entwickler lernen sie, wie externe Anwendungen
+                    per API an ERPNext angebunden werden.
+                </p>
+                <a href="#contact" class="btn btn-primary">Angebot anfragen</a>
+                <div class="spacer"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="sect" id="config">
+    <div class="container">
+        <div class="row my-5">
+            <div class="col-md text-center undraw-cont">
+                <img src="img/preferences.svg" class="img-fluid undraw">
+                <div class="py-5"></div>
+            </div>
+            <div class="col-lg">
+                <h2>Wir passen ERPNext an Ihre Bedürfnisse an</h2>
+                <p>
+                    Von Systemeinstellungen bis zu Nutzer-Berechtigungen muss bei der Einführung eines ERP-Systems
+                    viel konfiguriert werden. Durch den Import von Daten aus Ihren Altsystemen und mit individuellen
+                    Workflows
+                    stellen wir sicher, dass Sie sich in ERPNext gleich wie zu Hause fühlen.
+                </p>
+                <a href="#contact" class="btn btn-primary">Angebot anfragen</a>
+                <div class="py-5"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About our qualifications -->
+<section class="sect mt-5" id="qualifikationen">
+    <div class="container">
+        <div class="row">
+            <div class="jumbotron">
+                <h2 class="display-4 text-center">Was uns auszeichnet</h2>
+                <p class="lead text-center text-muted">Mit ERP-Interessierten aus Deutschland
+                    und der ganzen Welt entwickeln wir ERPNext weiter.</p>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-lg-4">
+                <div class="card text-center">
+                    <i class="fas fa-code-branch fa-3x card-image-top align-self-center"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Aktive Mitarbeit an ERPNext</h5>
+                        <p class="card-text">Als Dienstleistungsanbieter entwickeln wir ERPNext nach Ihren Wünschen
+                            weiter und passen es an die Erfordernisse Ihres Unternehmens an.</p>
+                        <a href="https://github.com/alyf-de" target="_blank" class="card-link">ALYF auf GitHub</a>
                     </div>
                 </div>
             </div>
-            <div class="py-5"></div>
+            <div class="col-lg-4">
+                <div class="card text-center">
+                    <img src="img/erpnext-logo-black.svg" class="card-image-top card-img-quali" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Mitglied der ERPNext Foundation</h5>
+                        <p class="card-text">Wir sind ein offizieller Dienstanbieter und Mitglied der
+                            ERPNext-Stiftung. So sind
+                            wir nah an der Community und allen wichtigen Entscheidungen rund um die Entwicklung der
+                            Software.</p>
+                        <a href="https://erpnext.org/service-providers" target="_blank" class="card-link">ERPNext
+                            Foundation</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card text-center">
+                    <img src="img/erpnext-deutschland-logo.png" class="card-image-top card-img-quali" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Mitglied des ERPNext German Chapter</h5>
+                        <p class="card-text">Im Interessensverband deutschsprachiger Nutzer und Dienstleister
+                            tauschen wir Erkenntnisse aus und stellen Neuentwicklungen gemeinsam auf die Beine.</p>
+                        <a href="https://discuss.erpnext.com/c/community/german-community" target="_blank"
+                            class="card-link">Werden Sie Teil der Community</a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </section>
+        <div class="py-5"></div>
+    </div>
+</section>
 
-    {{ partial "footer.html" }}
-
-    <!-- back to top-->
-    <a id="up-btn" href="#header">
-        <button type="button" class="btn btn-dark">
-            <i class="fas fa-chevron-up"></i>
-        </button>
-    </a>
-
-    <!-- Typeform -->
-    <script async>
-        (
-            function () {
-                var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm_share", b = "https://embed.typeform.com/";
-                if (!gi.call(d, id)) {
-                    js = ce.call(d, "script");
-                    js.id = id;
-                    js.src = b + "embed.js";
-                    q = gt.call(d, "script")[0];
-                    q.parentNode.insertBefore(js, q)
-                }
+<!-- Typeform -->
+<script async>
+    (
+        function () {
+            var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm_share", b = "https://embed.typeform.com/";
+            if (!gi.call(d, id)) {
+                js = ce.call(d, "script");
+                js.id = id;
+                js.src = b + "embed.js";
+                q = gt.call(d, "script")[0];
+                q.parentNode.insertBefore(js, q)
             }
-        )()
-    </script>
-</body>
+        }
+    )()
+</script>
 
-</html>
+<script>
+    // enable popovers
+    // https://getbootstrap.com/docs/4.0/components/popovers/#example-enable-popovers-everywhere
+    $(function () {
+        $('[data-toggle="popover"]').popover()
+    })
+
+    // dismissable on next click
+    // https://getbootstrap.com/docs/4.0/components/popovers/#dismiss-on-next-click
+    $('.popover-dismiss').popover({
+        trigger: 'focus'
+    })
+</script>
+
+{{end}}

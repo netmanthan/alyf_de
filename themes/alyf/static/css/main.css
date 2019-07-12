@@ -278,6 +278,14 @@ h6 {
     border: none;
 }
 
+.card-transparent {
+    color: #fbfcfc;
+    color: #263238;
+    padding-top: 30px;
+    height: auto;
+    border: none;
+}
+
 .card-link {
     color: #0090DA;
 }
@@ -313,6 +321,12 @@ h6 {
 
 .card-img-quali {
     height: 3rem;
+    align-self: center;
+    margin: 10px;
+}
+
+.icon-data-security {
+    height: 7rem;
     align-self: center;
     margin: 10px;
 }

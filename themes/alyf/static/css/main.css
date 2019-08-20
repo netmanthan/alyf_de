@@ -41,7 +41,7 @@ body {
 }
 
 #contact {
-    background-color: #263238;
+    background-color: #253746;
     color: #e0e0e0;
     font-weight: 400;
 }
@@ -116,6 +116,11 @@ body {
 
 .display-4 {
     font-size: 2rem;
+}
+
+.bullet-icon {
+    display: flex;
+    align-items: flex-end;
 }
 
 /* bigger than medium */
@@ -200,8 +205,25 @@ body {
     border: none;
 }
 
+.btn-secondary {
+    color: #0090DA;
+    border-style: solid;
+    border-color: #0090DA;
+    background-color: transparent;
+}
+
+.btn-secondary:hover {
+    background-color: #78BE20;
+    color: white;
+    border: none;
+}
+
 .fa-3x {
     padding: 10px;
+}
+
+.fa-2x {
+    padding: 20px;
 }
 
 .jumbotron {
@@ -394,6 +416,10 @@ h6 {
 
 .pink {
     color: #c5299b;
+}
+
+.dark-gray {
+    color: #253746;
 }
 
 /* --- End Colors --- */
